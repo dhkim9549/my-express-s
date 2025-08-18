@@ -37,7 +37,9 @@ async function main(query) {
     return e?.금융기관?.startsWith(query);
   });
 
-  logger.info("table2 = " + table2);
+  logger.info("table2 = ");
+  logger.info(table2);
+
   logger.info("main() end...");
 
   return table2;

@@ -37,7 +37,8 @@ async function main(query) {
     return e?.종목명?.startsWith(query);
   });
 
-  logger.info("table2 = " + table2);
+  logger.info("table2 = ");
+  logger.info(table2);
   logger.info("main() end...");
 
   return table2;
